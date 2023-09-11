@@ -11,7 +11,7 @@
 
 <p>This lab will familiarize you with xv6 and its system calls.
 
-</p><h2>Boot xv6 <script>g("easy")</script>(<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)</h2>
+</p><h2>Boot xv6 (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)</h2>
 
 <p>
 You can do these labs on an Athena machine or on your own computer.
@@ -138,7 +138,7 @@ grade. Separately, we will also have check-off meetings for labs (see
 committing your final changes to the lab, type <kbd>make handin</kbd> to submit
   your lab.  For detailed instructions on how to submit see <a href="#submit">below</a>.
 
-</p><h2>sleep <script>g("easy")</script>(<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)</h2>
+</p><h2>sleep (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)</h2>
 
 <div class="required">
 <p>Implement a user-level <tt>sleep</tt> program for xv6, along the lines
@@ -213,7 +213,7 @@ committing your final changes to the lab, type <kbd>make handin</kbd> to submit
    which does the same.
 
 
-<h2>pingpong <script>g("easy")</script>(<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)</h2>
+<h2>pingpong (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)</h2>
 
 <div class="required">
 <p> Write a user-level program that uses xv6 system calls to ''ping-pong'' a
@@ -259,7 +259,7 @@ committing your final changes to the lab, type <kbd>make handin</kbd> to submit
     between two processes and produces output as shown above.
 
 
-</p><h2>primes <script>g("moderate")</script>(<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>)/<script>g("hard")</script>(<a class="hard" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">hard</a>)</h2>
+</p><h2>primes (<a class="hard" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">hard</a>)</h2>
 
 <div class="required">
   <p>Write a concurrent prime sieve program for xv6 using pipes.  This idea
@@ -322,7 +322,7 @@ sieve and produces the following output:
     $
   </pre>
 
-<h2>find <script>g("moderate")</script>(<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>)</h2>
+<h2>find (<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>)</h2>
 
 <div class="required">
 <p>Write a simple version of the UNIX find program for xv6: find all the files
@@ -361,7 +361,7 @@ sieve and produces the following output:
     $
   </pre>
 
-<h2>xargs <script>g("moderate")</script>(<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>)</h2>
+<h2>xargs (<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>)</h2>
 
 <div class="required">
 <p>Write a simple version of the UNIX xargs program for xv6: its arguments
@@ -494,27 +494,27 @@ try fixing the problem with the Git commands.
 <ul>
 
   <li><p>Write an uptime program that prints the uptime in terms of
-      ticks using the <tt>uptime</tt> system call. <script>g("easy")</script>(<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)
+      ticks using the <tt>uptime</tt> system call. (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)
       </p></li>
 
   <li><p>Support regular expressions in name matching
   for <tt>find</tt>.  <tt>grep.c</tt> has some primitive support for
-  regular expressions.  <script>g("easy")</script>(<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)
+  regular expressions.  (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)
       </p></li>
 
   <li><p>The xv6 shell (<tt>user/sh.c</tt>) is just another user
       program and you can improve it. It is a minimal shell and lacks
       many features found in real shell. For example, modify the shell
       to not print a <tt>$</tt> when processing shell commands from a
-      file <script>g("moderate")</script>(<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>), modify the shell to
-      support wait <script>g("easy")</script>(<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>), modify the shell to
+      file (<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>), modify the shell to
+      support wait (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>), modify the shell to
       support lists of commands, separated by ";"
-      <script>g("moderate")</script>(<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>), modify the shell to support
+      (<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>), modify the shell to support
       sub-shells by implementing "(" and ")"
-      <script>g("moderate")</script>(<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>), modify the shell to support
-      tab completion <script>g("easy")</script>(<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>), modify the shell to
+      (<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>), modify the shell to support
+      tab completion (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>), modify the shell to
       keep a history of passed shell commands
-      <script>g("moderate")</script>(<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>), or anything else you would
+      (<a class="moderate" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">moderate</a>), or anything else you would
       like your shell to do. (If you are very ambitious, you may have
       to modify the kernel to support the kernel features you need;
       xv6 doesn't support much.)
