@@ -14,20 +14,9 @@
 </p><h2>Boot xv6 (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)</h2>
 
 <p>
-You can do these labs on an Athena machine or on your own computer.
-If you use your own computer, have a look at the
-<a href="https://pdos.csail.mit.edu/6.S081/2023/tools.html">lab tools page</a> for setup tips.
-
-</p><p>If you use Athena, you must use an x86 machine; that is, <tt>uname -a</tt>
-should mention <tt>i386 GNU/Linux</tt> or <tt>i686 GNU/Linux</tt> or
-<tt>x86_64 GNU/Linux</tt>.
-You can log into a public Athena host with <tt>ssh -X athena.dialup.mit.edu</tt>.
-We have set up the appropriate compilers and simulators for you on
-Athena.  To use them, run <kbd>add -f 6.828</kbd>.  You must run this
-command every time you log in (or add it to your
-<tt>~/.environment</tt> file).  If you get obscure errors while
-compiling or running <tt>qemu</tt>, check that you added the
-course locker.</p>
+You can do these labs on your own computer.
+To setup your computer look at the
+<a href="https://pdos.csail.mit.edu/6.S081/2023/tools.html">lab tools page</a> for tips.
 
 <p>Fetch the git repository for the xv6 source for the lab:
 </p><pre>$ <kbd>git clone https://github.com/freeuni-OS-fall23/labs</kbd>
@@ -135,8 +124,8 @@ grade. Separately, we will also have check-off meetings for labs (see
 </p>
 
 <p>The lab code comes with GNU Make rules to make submission easier. After
-committing your final changes to the lab, type <kbd>make handin</kbd> to submit
-  your lab.  For detailed instructions on how to submit see <a href="#submit">below</a>.
+committing your final changes to the lab, type <kbd>make tarball</kbd> to create the archive 
+for submission. For detailed instructions on how to submit see <a href="#submit">below</a>.
 
 </p><h2>sleep (<a class="easy" href="https://pdos.csail.mit.edu/6.S081/2023/labs/guidance.html">easy</a>)</h2>
 
